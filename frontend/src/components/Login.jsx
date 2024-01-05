@@ -6,7 +6,7 @@ function Login() {
 			<p className="text-center font-bold m-4 text-2xl">Login</p>
 			<form
 				action=""
-				className="flex flex-row font-bold p-4 items-center justify-between px-8"
+				className="flex flex-row font-bold p-4 items-center justify-between px-8 mx-auto gap-10 xl:gap-24"
 			>
 				<div className="flex flex-col gap-2">
 					<label htmlFor="email" className="">
