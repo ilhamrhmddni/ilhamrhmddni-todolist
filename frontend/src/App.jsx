@@ -1,12 +1,17 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+import AuthPage from './pages/AuthPage';
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
 
 function App() {
-  return (
-    <>
-      <div>Selamat Datang di Website Ilhamrhmddni</div>
-    </>
-  )
+	return (
+		<>
+			<Routes>
+				<Route path="/login" element={<AuthPage />} />
+				<Route path="/register" element={<AuthPage />} />
+			</Routes>
+		</>
+	);
 }
 
-export default App
+export default App;
